@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "mongodb": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@mongodb-js/mcp-server",
+                "mongodb://localhost:27017/"
+            ]
+        }
+    }
+}
